@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Learnify</div>
+            <ul class="nav-links">
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h1>Welcome to Learnify</h1>
+        <p>Your gateway to quality online education.</p>
+        <button onclick="window.location.href='#courses'">Explore Courses</button>
+    </section>
+
+    <section id="courses" class="courses">
+        <h2>Our Courses</h2>
+        <div class="course">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, JavaScript, and more to become a web developer.</p>
+        </div>
+        <div class="course">
+            <h3>Data Science</h3>
+            <p>Master data analysis, machine learning, and AI techniques.</p>
+        </div>
+        <div class="course">
+            <h3>Digital Marketing</h3>
+            <p>Become an expert in SEO, social media marketing, and analytics.</p>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Platform Features</h2>
+        <ul>
+            <li>Interactive video lectures</li>
+            <li>Hands-on projects</li>
+            <li>Certifications upon completion</li>
+            <li>24/7 mentor support</li>
+        </ul>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Learnify is dedicated to making quality education accessible to everyone, everywhere. Our platform is designed to help learners achieve their goals at their own pace.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
